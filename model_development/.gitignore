@@ -1,0 +1,99 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+*.env
+*.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.tsv
+*.json
+*.xml
+*.yaml
+*.h5
+*.hdf5
+*.parquet
+*.pkl
+*.joblib
+*.npy
+*.npz
+
+# Logs and debugging
+logs/
+debug.log
+*.log
+
+# Model files and checkpoints
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.pb
+*.tflite
+*.hdf5
+model/
+checkpoints/
+
+# Cache files
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+
+# Output folders
+output/
+results/
+figures/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Colab
+.colab/
+
+# pip dependency resolver
+pip-log.txt
+pip-delete-this-directory.txt
+
+# MyPy type checking
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# DVC (Data Version Control)
+.dvc/
+.dvc/cache/
+.dvc/tmp/
+
+# TensorBoard logs
+tb_logs/
+
+# Hugging Face datasets and models
+~/.cache/huggingface/
+
+# Streamlit cache
+.streamlit/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+
+# Models
+models/*
+
+# Data
+data/*

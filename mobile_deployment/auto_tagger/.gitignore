@@ -1,0 +1,73 @@
+# Xcode
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcscmblueprint
+
+# SwiftPM
+.build/
+Packages/
+.swiftpm/xcode/package.xcworkspace/
+.swiftpm/xcode/xcshareddata/
+
+# CocoaPods
+Pods/
+Podfile.lock
+project.xcworkspace/
+
+# Carthage
+Carthage/
+Carthage/Build/
+
+# Accio
+Dependencies/
+.accio/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Xcode Automatically Generated
+*.moved-aside
+*.xcuserstate
+
+# IDE helpers
+.idea/
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# SwiftPM Packages Xcode 12+
+.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+
+# Swift Package Manager
+Package.resolved
+
+# Archives
+*.xcarchive
+
+# Simulator logs
+*.simruntime/
+*.simdevice/
+*.simlaunchd/
+
+# Logs
+*.log
+
+# DS_Store
+.DS_Store
+
+# Environment files
+.env
+
+# Models & Data
+vocab.txt
+distilled_model.mlpackage
